@@ -113,6 +113,7 @@ class TopicItemView extends StatelessWidget {
               children: <Widget>[
                 new Row(
                   children: <Widget>[
+                    // 头像
                     new Container(
                       width: 20.0,
                       height: 20.0,
@@ -125,6 +126,7 @@ class TopicItemView extends StatelessWidget {
                         ),
                       ),
                     ),
+                    // 用户名 + 发布时间
                     new Padding(
                       padding: const EdgeInsets.only(left: 5.0),
                       child: new Text(
@@ -141,6 +143,7 @@ class TopicItemView extends StatelessWidget {
                     ),
                   ],
                 ),
+                // 文章标题
                 new Container(
                   width: 400.0,
                   padding: const EdgeInsets.only(top: 5.0, bottom: 5.0),
@@ -151,6 +154,7 @@ class TopicItemView extends StatelessWidget {
                     style: new TextStyle(fontSize: 14.0, color: Colors.black),
                   ),
                 ),
+                // 正文详情简略
                 new Container(
                   width: 400.0,
                   child: new Text(
@@ -161,6 +165,7 @@ class TopicItemView extends StatelessWidget {
                         new TextStyle(fontSize: 12.0, color: Colors.grey[800]),
                   ),
                 ),
+                // 评论数
                 new Container(
                   padding: const EdgeInsets.only(top: 5.0),
                   width: 400.0,

@@ -12,12 +12,7 @@ class TopicDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
-      title: 'Topic detils',
-      theme: new ThemeData(
-        primaryColor: Colors.white,
-      ),
-      home: new Scaffold(
+    return Scaffold(
         appBar: new AppBar(
           title: new Text(topic.title),
           leading: new GestureDetector(
@@ -34,7 +29,6 @@ class TopicDetails extends StatelessWidget {
             new RepliesView(topic.id),
           ],
         ),
-      ),
     );
   }
 }

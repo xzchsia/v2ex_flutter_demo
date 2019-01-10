@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/network/NetworkApi.dart';
+
+//import 'package:flutter_app/network/NetworkApi.dart';
 import 'package:flutter_app/ui/home/Home.dart';
 
 class V2EXApp extends StatefulWidget {

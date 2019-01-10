@@ -6,8 +6,8 @@ import 'package:flutter_app/model/SiteInfoResp.dart';
 import 'package:flutter_app/model/TopicsResp.dart';
 import 'package:flutter_app/network/Constants.dart' as httpConstants;
 import 'package:http/http.dart' as http;
-import 'package:kernel/log.dart';
-//import 'package:logging/logging.dart';
+//import 'package:kernel/log.dart';
+import 'package:logging/logging.dart';
 
 final Logger log1 = new Logger("dart-kernel");
 
